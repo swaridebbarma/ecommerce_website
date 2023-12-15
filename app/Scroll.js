@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+
 const Scroll = () => {
   return (
     <div>
@@ -11,13 +12,13 @@ const Scroll = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="a.jpg" className="d-block w-100" alt="Slide 1" height="400px" width="700px"/>
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/apparelGW/dec23atf/unrec/mfd/WA_WW_3000._CB571190800_.jpg" className="d-block w-100" alt="Slide 1" />
           </div>
           <div className="carousel-item">
-            <img src="b.jpg" className="d-block w-100" alt="Slide 2" height="400px" width="700px"/>
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/WRS23/MFD-Heros-PC._CB571155873_.jpg" className="d-block w-100" alt="Slide 2" />
           </div>
           <div className="carousel-item">
-            <img src="c.jpg" className="d-block w-100" alt="Slide 3" height="400px" width="700px"/>
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/GW/MFD/Dec/Unrec-PC-3000-Deals._CB571190788_.jpg" className="d-block w-100" alt="Slide 3" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -29,15 +30,8 @@ const Scroll = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-
- 
-      {/* Updated script tags for Bootstrap 5 */}
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </div>
   );
 }
-  
-  export default Scroll;
-  
+
+export default Scroll;
